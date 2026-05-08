@@ -40,3 +40,32 @@ Displays current user and system date information.
 - Docker integration
 - AWS deployment
 - Monitoring scripts
+
+## Lab Progress
+
+### Completed
+- Installed Ubuntu Server in UTM virtual environment
+- Configured SSH remote administration
+- Installed and managed Nginx web server
+- Analyzed system and application logs
+- Inspected listening ports and network services
+- Created Bash automation scripts
+- Automated backups using cron jobs
+- Implemented timestamped backup logging
+- Managed Linux users, groups, and permissions
+- Used Git and GitHub for version control
+
+### Current Focus
+- Bash scripting
+- Linux administration
+- Automation
+- Networking
+- Troubleshooting
+
+### Upcoming Goals
+- Docker containerization
+- AWS EC2 deployment
+- System monitoring
+- Security hardening
+- Log rotation
+- Infrastructure automation
