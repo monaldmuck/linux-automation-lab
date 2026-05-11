@@ -1,6 +1,10 @@
 # Linux Automation Lab
 
-This project demonstrates foundational Linux administration and automation skills using Ubuntu Server.
+## Project Goal
+
+The goal of this lab is to develop practical Linux administration, automation, networking, and troubleshooting skills through hands-on projects using Ubuntu Server and Bash scripting.
+
+This project demonstrates foundational Linux administration and automation skills using Ubuntu Server
 
 ## Skills Demonstrated
 
@@ -14,6 +18,29 @@ This project demonstrates foundational Linux administration and automation skill
 - Backup automation
 
 ## Scripts
+
+### system_monitor.sh
+
+Performs automated Linux system health checks and logs the results for troubleshooting and monitoring purposes.
+
+#### Checks Included
+- Hostname verification
+- System uptime
+- Disk usage
+- Memory usage
+- Top memory-consuming processes
+- Listening network ports
+- Nginx service status
+
+#### Why It Matters
+System monitoring is critical for Linux administration, cloud operations, and cybersecurity. Monitoring scripts help administrators identify resource issues, detect service failures, analyze running processes, and troubleshoot systems proactively.
+
+#### Technologies Used
+- Bash scripting
+- Linux process management
+- Network socket inspection
+- Log generation
+- Service validation with systemctl
 
 ### backup.sh
 Creates timestamped backups of the scripts directory and logs backup activity.
