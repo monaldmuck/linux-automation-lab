@@ -2,9 +2,11 @@
 
 ## Project Goal
 
-The goal of this lab is to develop practical Linux administration, automation, networking, and troubleshooting skills through hands-on projects using Ubuntu Server and Bash scripting.
+The goal of this lab is to develop practical Linux administration, automation, networking, monitoring, and troubleshooting skills through hands-on projects using Ubuntu Server and Bash scripting.
 
-This project demonstrates foundational Linux administration and automation skills using Ubuntu Server
+This project demonstrates foundational Linux administration and automation skills using Ubuntu Server, SSH, Bash scripting, cron jobs, nginx, Git/GitHub, and system monitoring tools.
+
+---
 
 ## Skills Demonstrated
 
@@ -13,9 +15,15 @@ This project demonstrates foundational Linux administration and automation skill
 - Linux permissions and ownership
 - SSH remote administration
 - Nginx web server management
-- Log analysis
+- Linux log analysis
 - Service management with systemctl
 - Backup automation
+- System health monitoring
+- Security log monitoring
+- Network socket inspection
+- Git and GitHub workflow
+
+---
 
 ## Scripts
 
@@ -42,16 +50,64 @@ System monitoring is critical for Linux administration, cloud operations, and cy
 - Log generation
 - Service validation with systemctl
 
+---
+
+### health_check.sh
+
+Performs automated Linux health checks and generates alerts for resource usage and service availability.
+
+#### Features
+- Disk usage monitoring
+- Memory usage monitoring
+- Nginx service validation
+- Health check logging
+- Automated cron execution
+
+#### Why It Matters
+Health monitoring allows administrators to proactively identify system issues before they become outages or service failures.
+
+---
+
+### ssh_failed_logins.sh
+
+Analyzes Linux authentication logs to identify failed SSH login attempts.
+
+#### Features
+- SSH failed login detection
+- Authentication log analysis
+- Security monitoring automation
+- Bash-based reporting
+
+#### Why It Matters
+Monitoring failed SSH logins is important for detecting brute-force attacks, unauthorized access attempts, and suspicious authentication activity.
+
+---
+
 ### backup.sh
+
 Creates timestamped backups of the scripts directory and logs backup activity.
 
+#### Features
+- Timestamped backups
+- Automated directory creation
+- Backup logging
+- Cron job compatibility
+
+---
+
 ### hello.sh
-Basic Bash script demonstrating execution permissions.
+
+Basic Bash script demonstrating execution permissions and shell scripting fundamentals.
+
+---
 
 ### userinfo.sh
-Displays current user and system date information.
 
-## Technologies Used
+Displays current user and system date information using Bash variables and command substitution.
+
+---
+
+## Core Technologies
 
 - Ubuntu Server
 - Bash
@@ -59,14 +115,11 @@ Displays current user and system date information.
 - Nginx
 - SSH
 - Git/GitHub
+- systemctl
+- Linux networking tools
+- Linux log management
 
-## Future Improvements
-
-- Log rotation
-- Compression
-- Docker integration
-- AWS deployment
-- Monitoring scripts
+---
 
 ## Lab Progress
 
@@ -80,7 +133,11 @@ Displays current user and system date information.
 - Automated backups using cron jobs
 - Implemented timestamped backup logging
 - Managed Linux users, groups, and permissions
+- Built Linux system monitoring scripts
+- Built SSH failed login monitoring automation
 - Used Git and GitHub for version control
+
+---
 
 ### Current Focus
 - Bash scripting
@@ -88,11 +145,22 @@ Displays current user and system date information.
 - Automation
 - Networking
 - Troubleshooting
+- Security monitoring
+
+---
 
 ### Upcoming Goals
 - Docker containerization
 - AWS EC2 deployment
-- System monitoring
 - Security hardening
 - Log rotation
 - Infrastructure automation
+- Centralized monitoring
+- Reverse proxy configuration
+- SIEM integration
+
+---
+
+## Portfolio Purpose
+
+This repository serves as a hands-on Linux administration and automation portfolio demonstrating practical infrastructure, monitoring, scripting, troubleshooting, and security-focused operational skills.
