@@ -120,6 +120,55 @@ Displays current user and system date information using Bash variables and comma
 - Linux log management
 
 ---
+## Screenshots
+
+### SSH Remote Administration
+Demonstrates remote Linux administration over SSH from the host machine.
+
+![SSH Remote Administration](screenshots/ssh-remote-admin.png)
+
+---
+
+### Nginx Custom Web Page
+Custom nginx web server page hosted from the Ubuntu Linux server.
+
+![Nginx Custom Page](screenshots/nginx-custom-page.png)
+
+---
+
+### System Health Monitoring
+Automated Linux health monitoring showing disk usage, memory usage, and nginx service validation.
+
+![System Health Monitor](screenshots/system-health-monitor.png)
+
+---
+
+### Network Services and Open Ports
+Inspection of active listening services and open ports using Linux networking tools.
+
+![Network Services](screenshots/network-services.png)
+
+---
+
+### Git Commit History
+Git version control workflow demonstrating iterative Linux lab development.
+
+![Git History](screenshots/git-history.png)
+
+---
+
+### SSH Security Monitoring
+Automated monitoring of failed SSH login attempts through Linux authentication logs.
+
+![SSH Security Monitoring](screenshots/ssh-security-monitoring.png)
+
+---
+
+### Project Structure
+Organized Linux automation lab structure including scripts, documentation, and screenshots.
+
+![Project Structure](screenshots/project-structure.png)
+---
 
 ## Lab Progress
 
@@ -136,16 +185,6 @@ Displays current user and system date information using Bash variables and comma
 - Built Linux system monitoring scripts
 - Built SSH failed login monitoring automation
 - Used Git and GitHub for version control
-
----
-
-### Current Focus
-- Bash scripting
-- Linux administration
-- Automation
-- Networking
-- Troubleshooting
-- Security monitoring
 
 ---
 
