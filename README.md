@@ -175,6 +175,59 @@ Organized Linux automation lab structure including scripts, documentation, and s
 
 ![Project Structure](screenshots/project-structure.png)
 ---
+## Troubleshooting Scenarios
+
+### SSH Authentication and Connectivity Issues
+**Issue:** SSH authentication failed and later timed out while connecting from the Mac host to the Ubuntu VM.
+
+**Resolution:** Verified the correct Ubuntu username, confirmed the VM IP address, checked SSH availability, and reconnected using the correct SSH target.
+
+**Skills Demonstrated:**
+- SSH troubleshooting
+- Host vs guest OS awareness
+- IP address validation
+- Remote administration workflow
+
+---
+
+### Broken GitHub Screenshot Links
+**Issue:** Screenshots failed to render in the GitHub README.
+
+**Resolution:** Identified that screenshot files were incorrectly named with `screenshots:` prefixes, renamed them to match README paths, committed the corrected files, and pushed them to GitHub.
+
+**Skills Demonstrated:**
+- GitHub documentation troubleshooting
+- File path debugging
+- Repository organization
+- Markdown image linking
+
+---
+
+### Bash Backup Script Failure
+**Issue:** Backup script failed with a missing destination operand error.
+
+**Resolution:** Corrected variable naming, quoted paths properly, and updated the `cp -r` command to include both source and destination paths.
+
+**Skills Demonstrated:**
+- Bash debugging
+- Variable usage
+- File copy automation
+- Error interpretation
+
+---
+
+### Cron Path Troubleshooting
+**Issue:** Cron jobs required full script paths to run correctly.
+
+**Resolution:** Used absolute paths for scheduled scripts and verified automation using `crontab -l`.
+
+**Skills Demonstrated:**
+- Cron scheduling
+- Automation troubleshooting
+- Absolute vs relative path understanding
+- Linux task automation
+
+---
 
 ## Lab Progress
 
