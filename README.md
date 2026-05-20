@@ -8,6 +8,12 @@ This project demonstrates foundational Linux administration and automation skill
 
 ---
 
+## Architecture Diagram
+
+This diagram illustrates the Linux automation lab infrastructure, including SSH administration, nginx web services, cron automation, monitoring scripts, security monitoring, and GitHub version control.
+
+![Linux Lab Architecture](diagrams/linux-lab-architecture.png)
+---
 ## Skills Demonstrated
 
 - Bash scripting
@@ -185,6 +191,17 @@ Organized Linux automation lab structure including scripts, documentation, and s
 - Built Linux system monitoring scripts
 - Built SSH failed login monitoring automation
 - Used Git and GitHub for version control
+
+---
+
+### Current Focus
+
+- Linux administration
+- Bash scripting
+- Infrastructure automation
+- Monitoring and logging
+- Security-focused scripting
+- Networking fundamentals
 
 ---
 
