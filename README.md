@@ -2,15 +2,15 @@
 
 ## Project Goal
 
-The goal of this lab is to develop practical Linux administration, automation, networking, monitoring, and troubleshooting skills through hands-on projects using Ubuntu Server and Bash scripting.
+The goal of this lab is to develop practical Linux administration, automation, networking, monitoring, containerization, and troubleshooting skills through hands-on projects using Ubuntu Server and Bash scripting.
 
-This project demonstrates foundational Linux administration and automation skills using Ubuntu Server, SSH, Bash scripting, cron jobs, nginx, Git/GitHub, and system monitoring tools.
+This project demonstrates foundational Linux administration and automation skills using Ubuntu Server, SSH, Bash scripting, cron jobs, Nginx, Docker, Git/GitHub, and system monitoring tools.
 
 ---
 
 ## Architecture Diagram
 
-This diagram illustrates the Linux automation lab infrastructure, including SSH administration, nginx web services, cron automation, monitoring scripts, security monitoring, and GitHub version control.
+This diagram illustrates the Linux automation lab infrastructure, including SSH administration, Nginx web services, cron automation, monitoring scripts, security monitoring, Docker containerization, and GitHub version control
 
 ![Linux Lab Architecture](diagrams/linux-lab-architecture.png)
 ---
@@ -21,6 +21,7 @@ This diagram illustrates the Linux automation lab infrastructure, including SSH 
 - Linux permissions and ownership
 - SSH remote administration
 - Nginx web server management
+- Docker containerization
 - Linux log analysis
 - Service management with systemctl
 - Backup automation
@@ -112,6 +113,52 @@ Basic Bash script demonstrating execution permissions and shell scripting fundam
 Displays current user and system date information using Bash variables and command substitution.
 
 ---
+## Docker Lab
+
+This project includes Docker containerization using nginx containers running on Ubuntu Server.
+
+### Docker Skills Demonstrated
+- Docker installation and configuration
+- Container lifecycle management
+- Container networking and port forwarding
+- nginx container deployment
+- Docker image management
+- Docker service administration
+
+### Docker Commands Used
+
+```bash
+sudo docker run hello-world
+sudo docker run -d -p 8080:80 --name nginx-container nginx
+sudo docker ps
+sudo docker images
+```
+
+### Docker Networking
+
+The nginx Docker container was deployed using port mapping between the Ubuntu host and the container:
+
+```text
+Host Port 8080 --> Container Port 80
+```
+
+### Docker nginx Deployment
+
+The nginx container was deployed using Docker and exposed through port mapping from the Ubuntu host to the container.
+
+![Docker nginx](screenshots/docker-nginx.png)
+
+### Why Docker Matters
+
+Docker enables lightweight application containerization and is widely used in:
+- cloud infrastructure
+- DevOps engineering
+- CI/CD pipelines
+- application deployment
+- cybersecurity labs
+- microservices architecture
+
+---
 
 ## Core Technologies
 
@@ -126,6 +173,7 @@ Displays current user and system date information using Bash variables and comma
 - Linux log management
 
 ---
+
 ## Screenshots
 
 ### SSH Remote Administration
@@ -168,6 +216,18 @@ Automated monitoring of failed SSH login attempts through Linux authentication l
 
 ![SSH Security Monitoring](screenshots/ssh-security-monitoring.png)
 
+
+### Docker Container Management
+Running nginx container with exposed networking ports.
+
+![Docker Containers](screenshots/docker-containers.png)
+
+---
+
+### Docker nginx Deployment
+nginx container accessible through mapped Docker networking.
+
+![Docker nginx](screenshots/docker-nginx-curl.png)
 ---
 
 ### Project Structure
@@ -243,6 +303,9 @@ Organized Linux automation lab structure including scripts, documentation, and s
 - Managed Linux users, groups, and permissions
 - Built Linux system monitoring scripts
 - Built SSH failed login monitoring automation
+- Installed and configured Docker
+- Deployed Nginx container using Docker
+- Implemented Docker networking and port forwarding
 - Used Git and GitHub for version control
 
 ---
@@ -259,7 +322,7 @@ Organized Linux automation lab structure including scripts, documentation, and s
 ---
 
 ### Upcoming Goals
-- Docker containerization
+
 - AWS EC2 deployment
 - Security hardening
 - Log rotation
